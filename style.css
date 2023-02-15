@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top: 100px;
+}
+.header{
+    display: flex;
+    background-color: hsl(10, 79%, 65%);
+    padding: 12px;
+    width: 35%;
+    border-radius: .5rem;
+    color: hsl(33, 100%, 98%);
+}
+.left{
+    width: 90%;
+}
+.left p{
+    margin-bottom: 8px;
+}
+.right{
+    width: 10%;
+    padding-right: 50px;
+}
+img{
+    width: 50px;
+}
+.body_content{
+    margin-top: 1rem;
+    border: 1px solid;
+    width: 35%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.body_content p{
+    color: hsl(28, 10%, 53%);
+}
+.little_head{
+    padding: 5px 0 3.5rem 1rem;
+}
+.little_head h3{
+    font-size: 1.7rem;
+}
+.little_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: .15rem solid hsl(27, 66%, 92%);
+}
+.courbe div{
+    border-radius: 5px;
+}
+.mon{
+    width: 35px;
+    height: 30px;
+    background-color: hsl(10, 79%, 65%);
+}
+.tue{
+    width: 35px;
+    height: 70px;
+    background-color: hsl(10, 79%, 65%);
+}
+.wes{
+    width: 35px;
+    height: 105px;
+    background-color: hsl(186, 34%, 60%);
+}
+.thu{
+    width: 35px;
+    height: 65px;
+    background-color: hsl(10, 79%, 65%);
+}
+.fri{
+    width: 35px;
+    height: 40px;
+    background-color: hsl(10, 79%, 65%);
+}
+.sat{
+    width: 35px;
+    height: 85px;
+    background-color: hsl(10, 79%, 65%);
+}
+.sun{
+    width: 35px;
+    height: 50px;
+    background-color: hsl(10, 79%, 65%);
+}
+.courbe{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 10px
+}
+.courbe p{
+    margin: 10px 0 15px 0;
+}
+.little_foot{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.little_foot_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-foot{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
