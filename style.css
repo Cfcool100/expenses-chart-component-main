@@ -20,7 +20,7 @@ body{
     display: flex;
     background-color: hsl(10, 79%, 65%);
     padding: 12px;
-    width: 35%;
+    width: 25%;
     border-radius: .5rem;
     color: hsl(33, 100%, 98%);
 }
@@ -39,8 +39,7 @@ img{
 }
 .body_content{
     margin-top: 1rem;
-    border: 1px solid;
-    width: 35%;
+    width: 25%;
     padding: 25px;
     background-color: #fff;
     border-radius: 10px;
@@ -58,47 +57,52 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border-bottom: .15rem solid hsl(27, 66%, 92%);
+    border-bottom: 1px solid hsl(27, 66%, 92%);
 }
 .courbe div{
     border-radius: 5px;
 }
 .mon{
-    width: 35px;
+    
     height: 30px;
     background-color: hsl(10, 79%, 65%);
 }
 .tue{
-    width: 35px;
+    
     height: 70px;
     background-color: hsl(10, 79%, 65%);
 }
 .wes{
-    width: 35px;
+    
     height: 105px;
     background-color: hsl(186, 34%, 60%);
 }
 .thu{
-    width: 35px;
+    
     height: 65px;
     background-color: hsl(10, 79%, 65%);
 }
 .fri{
-    width: 35px;
+    
     height: 40px;
     background-color: hsl(10, 79%, 65%);
 }
 .sat{
-    width: 35px;
+    
     height: 85px;
     background-color: hsl(10, 79%, 65%);
 }
 .sun{
-    width: 35px;
+    
     height: 50px;
     background-color: hsl(10, 79%, 65%);
 }
+
+.bar{
+    width : 100%;
+}
 .courbe{
+    width: 10%;  
     display: flex;
     flex-direction: column;
     align-items:center;
